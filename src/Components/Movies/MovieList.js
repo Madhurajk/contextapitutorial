@@ -36,7 +36,7 @@ export const MovieList = (props) => {
   };
   return (
     <Card
-      sx={{ width: "200px", padding: "20px", mr: 4, mb: 4 }}
+      sx={{ width: "500px", padding: "20px", mr: 4, mb: 4 }}
       className="movie__card"
     >
       <Link
@@ -51,8 +51,8 @@ export const MovieList = (props) => {
           }
           sx={{
             objectFit: "fill",
-            width: "200px",
-            height: "200px",
+            width: "500px",
+            height: "500px",
           }}
         />
       </Link>
