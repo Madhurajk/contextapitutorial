@@ -1,6 +1,6 @@
 .movie__row {
   flex-wrap: wrap;
-  background-color: rgb(8, 196, 225);
+  background-color: rgb(9, 10, 10);
 }
 
 .movie__row::-webkit-scrollbar {
