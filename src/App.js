@@ -25,9 +25,6 @@ function App() {
             <Route path="/home" element={<HomePage />} />
             <Route path="/home/*" element={<ContactManager />}></Route>
             <Route path="/signup" element={<SignUp />} />
-                {/* <Route path="/movies" element={<Home />}></Route>
-                <Route path="movie/:id" element={<Movie />}></Route>
-                <Route path="movies/:type" element={<MovieList />}></Route>  */}
             <Route path="/movie/*" element={<MovieManager />}></Route>
           </Routes>
         </UserContextProvider>
