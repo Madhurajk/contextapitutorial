@@ -20,7 +20,7 @@ export const HomePage = () => {
     </h2>
     <h2>
     <div className="MovieContainer">
-    <Link to="/movies">Movie Manager</Link>
+    <Link to="/movie/movielist">Movie Manager</Link>
     </div>
     </h2>
     </td>
