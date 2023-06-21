@@ -20,10 +20,6 @@ export const AddMovies = (props) => {
           justifyContent={"center"}
           alignItems={"center"}
         >
-          {/* <Typography variant="body" textAlign={"center"}>
-           <b> Movies Not found! Please search...</b>
-          </Typography>
-          <LocalMoviesRoundedIcon sx={{ opacity: 0.5 }} /> */}
         </Box>
       )}
     </Stack>
