@@ -9,7 +9,7 @@ export const SearchBar = (props) => {
   };
 
   return (
-    <Box width="60%">
+    <Box width="40%">
       <TextField
         fullWidth
         id="search"

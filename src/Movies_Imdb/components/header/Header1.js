@@ -7,10 +7,9 @@ const Header1 = () => {
         <>
         <div className="header">
             <div className="headerCenter">
-                <h1><b>Movies</b></h1>
             <div className="headerLeft">
-                <Link to="/movies/popular" style={{textDecoration: "none"}}><span><b>Popular</b></span></Link>
-                <Link to="/movies/upcoming" style={{textDecoration: "none"}}><span><b>Upcoming</b></span></Link>
+                <Link to="/movies_imdb/popular" style={{textDecoration: "none"}}><span><b>Popular</b></span></Link>
+                <Link to="/movies_imdb/upcoming" style={{textDecoration: "none"}}><span><b>Upcoming</b></span></Link>
             </div>
             </div>
         </div>

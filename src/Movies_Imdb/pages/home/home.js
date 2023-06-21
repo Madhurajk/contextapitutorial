@@ -43,10 +43,8 @@ const Home = () => {
                                         </span>
                                     </div>
                                     <div className="posterImage__description">{movie ? movie.overview : ""}</div>
-                                    <div className="cart_button">
-                                        <input type="button" value="AddCart"></input>
                                     </div>
-                                    </div>
+                                    
                             </Link>
                         ))
                     }
