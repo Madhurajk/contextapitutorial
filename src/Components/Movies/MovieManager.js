@@ -7,7 +7,7 @@ import { useGetMoviesQuery } from "../services/movieApi";
 import { MovieDetails } from "./MovieDetails";
 import { AddToCart } from "./AddToCart";
 import { AddMovies } from "./AddMovies";
-import useDebounce from "../../hooks/useDebounce";
+import useDebounce from "../../bounce/useDebounce";
 
 export const MovieManager = () => {
   const [movies, setMovies] = useState([]);
