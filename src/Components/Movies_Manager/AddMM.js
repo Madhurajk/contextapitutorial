@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import { MovieList } from "./MovieList";
+import { MovieList } from "./MList";
 import LocalMoviesRoundedIcon from "@mui/icons-material/LocalMoviesRounded";
 import Home from "../../Movies_Imdb/pages/home/home";
 

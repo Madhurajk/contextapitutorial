@@ -1,13 +1,13 @@
 import { Container } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import { MovieHeader } from "./MovieListHeading";
+import { MovieHeader } from "./MHeading";
 import "./styles.css";
 import { useGetMoviesQuery } from "../services/movieApi";
 import { MovieDetails } from "./MovieDetails";
-import { AddToCart } from "./AddToCart";
-import { AddMovies } from "./AddMovies";
-import useDebounce from "../../bounce/useDebounce";
+import { AddToCart } from "./AddToCartMovies";
+import { AddMovies } from "./AddMM";
+import useDebounce from "../../bounce/searchUseDebounce";
 
 export const MovieManager = () => {
   const [movies, setMovies] = useState([]);

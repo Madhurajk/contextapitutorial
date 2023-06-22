@@ -1,11 +1,11 @@
 import { Box, Typography } from "@mui/material";
 import React, { useState } from "react";
-import { SearchBar } from "./SearchBar";
+import { SearchBar } from "./SearchMoviesr";
 import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-import MovieModal from "../Screen/Modal/Modal";
+import MovieModal from "../Screen/Modal/MovieModal";
 import { useSelector } from "react-redux";
 import { selectAllMovies } from "../../Redux/movieSlice";
 const MovieListHeading = (props) => {

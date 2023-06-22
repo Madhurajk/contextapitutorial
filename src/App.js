@@ -11,7 +11,7 @@ import { HomePage } from "./Components/HomePage/HomePage";
 import Home from './Movies_Imdb/pages/home/home';
 import MovieList from './Movies_Imdb/components/movieList/movieList';
 import Movie from './Movies_Imdb/pages/movieDetail/movie';
-import { MovieManager } from "./Components/Movies/MovieManager"
+import { MovieManager } from "./Components/Movies_Manager/MovieManager"
 
 function App() {
   return (

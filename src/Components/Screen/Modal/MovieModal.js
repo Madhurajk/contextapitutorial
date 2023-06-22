@@ -1,6 +1,6 @@
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
-import { AddToCart } from "../../Movies/AddToCart";
+import { AddToCart } from "../../Movies_Manager/AddToCartMovies";
 
 const style = {
   position: "absolute",
