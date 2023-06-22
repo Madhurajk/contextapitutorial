@@ -54,7 +54,7 @@ export const MovieDetails = () => {
       <Container maxWidth="lg">
         <Paper elevation={3} sx={{ p: 2, m: "20px 0px" }}>
           {currentMovieDetail ? (
-            <Box display="flex">
+            <Box display="flex" bgcolor="silver">
               <Box>
                 <img src={currentMovieDetail?.Poster} alt="movie__img"></img>
               </Box>
@@ -96,22 +96,13 @@ export const MovieDetails = () => {
                   <Button
                     variant="contained"
                     size="small"
-                    color="secondary"
+                    color="success"
                     disabled={addListDisabled}
                     onClick={() => addMovieHandler(movie)}
                   >
                     {addListDisabled ? `Added to cart` : `Add to cart`}
                   </Button>
-                  <Button
-                    variant="contained"
-                    size="small"
-                    color="error"
-                    disabled={!addListDisabled}
-                    onClick={() => deleteMovieHandler(movie.imdbID)}
-                  >
-                    Delete from cart!
-                  </Button>
-                </Stack>
+                  </Stack>
               </Box>
             </Box>
           ) : (

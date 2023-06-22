@@ -80,20 +80,11 @@ export const MovieList = (props) => {
         <Button
           variant="contained"
           size="small"
-          color="primary"
+          color="success"
           onClick={() => addMovieHandler(movie)}
           disabled={addListDisabled}
         >
           {addListDisabled ? `Movie Added` : `Add to cart`}
-        </Button>
-        <Button
-          variant="contained"
-          size="small"
-          color="error"
-          onClick={() => deleteMovieHandler(movie.imdbID)}
-          disabled={!addListDisabled}
-        >
-          Delete from cart!
         </Button>
       </CardActions>
     </Card>
